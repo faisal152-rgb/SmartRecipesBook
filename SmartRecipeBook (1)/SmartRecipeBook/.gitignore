@@ -1,0 +1,27 @@
+# Frontend
+node_modules
+dist
+.DS_Store
+
+# Backend (Laravel)
+server/vendor
+server/.env
+server/.env.local
+server/storage/logs/*
+server/bootstrap/cache/*
+server/public/storage
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+vite.config.ts.*
+*.tar.gz

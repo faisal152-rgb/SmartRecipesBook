@@ -1,0 +1,2 @@
+/* Clean index.css - now imports global */
+@import "./styles/global.css";

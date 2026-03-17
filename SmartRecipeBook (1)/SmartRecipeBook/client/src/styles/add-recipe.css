@@ -1,0 +1,19 @@
+/* Forms */
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.dropzone {
+  border: 2px dashed var(--border);
+  border-radius: var(--radius);
+  padding: 3rem;
+  text-align: center;
+  background-color: #f9fafb;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.dropzone:hover {
+  border-color: var(--primary);
+  background-color: #ecfdf5;
+}
